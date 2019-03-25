@@ -5,7 +5,7 @@ module.exports.setup = function() {
     var teamsBuilder = require('botbuilder-teams');
     var bot = require('./bot');
 
-    bot.connector.onQuery('getRandomText', function(event, query, callback) {
+    bot.connector.onQuery('entertainMe', function(event, query, callback) {
         var faker = require('faker');
 
         // If the user supplied a title via the cardTitle parameter then use it or use a fake title
