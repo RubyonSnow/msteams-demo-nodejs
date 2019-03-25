@@ -1,6 +1,7 @@
 html, body, div.surface, div.panel {
     height: 100%;
     margin: 0;
+    background-color: #00b5a3;
 }
 
 div.panel {
