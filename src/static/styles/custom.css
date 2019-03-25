@@ -6,4 +6,5 @@ html, body, div.surface, div.panel {
 
 div.panel {
     padding: 15px;
+    background-color: #00b5a3;
 }
